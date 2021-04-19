@@ -93,20 +93,55 @@
 
 .one {
   background: url(./images/1.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .two {
   background: url(./images/2.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .three {
   background: url(./images/3.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .four {
   background: url(./images/4.jpg);
-  background-size: contain;
+  background-size: cover;
+}
+
+/* Footer*/
+.footer {
+  display: grid;
+  grid-template-columns: 175px 1fr 1fr 175px;
+  margin: 1.5rem 0;
+  font-size: 0.7rem;
+  color: #6e6e6e;
+}
+
+.footer p,
+.footer ul {
+  padding: 0.5rem 0;
+}
+
+.footer a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.terms {
+  grid-column-start: 2;
+}
+
+.menu {
+  grid-column-start: 3;
+}
+
+.menu li {
+  display: inline;
 }
