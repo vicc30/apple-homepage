@@ -35,6 +35,20 @@
 
 .jumbo-text .p-sub {
   font-size: 1.5rem;
+  margin-top: 1.3rem;
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.p-sub svg {
+  font-size: 2.4rem;
+}
+
+.p-sub:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+  cursor: pointer;
 }
 
 /* Navbar */
