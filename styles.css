@@ -46,6 +46,7 @@
 .nav ol {
   display: flex;
   margin: auto;
+  align-items: center;
   min-width: 70vw;
   justify-content: space-around;
   border-radius: 3px;
@@ -64,14 +65,24 @@
       no-repeat 50% 50%,
     -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
+
 .nav ol li {
   display: inline;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   color: white;
+  font-size: 0.9rem;
+}
+
+.nav svg {
+  font-size: 1.5rem;
 }
 
 .nav li:hover {
   cursor: pointer;
+}
+
+.nav .nav-search svg {
+  font-size: 1rem;
 }
 
 .nav .nav-search:hover {
@@ -118,11 +129,7 @@
   margin: 1.5rem 0;
   font-size: 0.7rem;
   color: #6e6e6e;
-}
-
-.footer p,
-.footer ul {
-  padding: 0.5rem 0;
+  line-height: 1.5rem;
 }
 
 .footer a {
@@ -144,4 +151,8 @@
 
 .menu li {
   display: inline;
+}
+
+.menu svg {
+  font-size: 0.8rem;
 }
