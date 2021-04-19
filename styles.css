@@ -3,6 +3,7 @@
   font-size: 16px;
 }
 
+/* Jumbotron */
 .jumbo {
   background-image: url(./images/jumbo.jpg);
   min-height: 80vh;
@@ -10,8 +11,35 @@
   background-position: bottom;
 }
 
+/* jumbotron text */
+.jumbo-text {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.jumbo-text h3,
+.p-main,
+.p-sub {
+  color: #fff;
+  font-weight: 100;
+}
+
+.jumbo-text h3 {
+  font-size: 3.5rem;
+}
+
+.jumbo-text .p-main {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.jumbo-text .p-sub {
+  font-size: 1.5rem;
+}
+
+/* Navbar */
 .nav {
-  height: 35vh;
+  height: 30vh;
   display: flex;
 }
 
@@ -47,5 +75,5 @@
 }
 
 .nav .nav-search:hover {
-cursor: text;
+  cursor: text;
 }
