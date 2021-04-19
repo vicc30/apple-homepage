@@ -6,15 +6,15 @@ This my solution for the project Building with backgrounds and gradients. That i
 
 * In this project you’ll clone the website of one of the most design-forward companies in the world. It’s not a very complex site but it uses background photos well and the navbar at the top contains a gradient that you should be able to mimic.
 
-* [ ] Go to this old version of apple.com and have a look around.
-* [ ] Follow the instructions atop the Google Homepage project to set up a GitHub repository for this project (of course you’ll need to change the title).
-* [ ] Create a new HTML document.
-* [ ] Think about all the elements on the page and how they are grouped together.
-* [ ] Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned. You may want to make their background colors different so you can see them. Don’t forget to use your browser’s developer tools (right click on the page, click “Inspect Element”)!
-* [ ] Set up the top navigation bar. How is that gradient achieved?
-* [ ] Set up the main background image. You can grab that exact image from their webpage by finding the `<section class="hero">` tag in your inspector and checking out its background image.
-* [ ] Fill in and position the additional sections. Don’t worry about enclosing every paragraph of text in <p> tags.
-* [ ] Push your solution to GitHub.
+* [x] Go to this old version of apple.com and have a look around.
+* [x] Follow the instructions atop the Google Homepage project to set up a GitHub repository for this project (of course you’ll need to change the title).
+* [x] Create a new HTML document.
+* [x] Think about all the elements on the page and how they are grouped together.
+* [x] Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned. You may want to make their background colors different so you can see them. Don’t forget to use your browser’s developer tools (right click on the page, click “Inspect Element”)!
+* [x] Set up the top navigation bar. How is that gradient achieved?
+* [x] Set up the main background image. You can grab that exact image from their webpage by finding the `<section class="hero">` tag in your inspector and checking out its background image.
+* [x] Fill in and position the additional sections. Don’t worry about enclosing every paragraph of text in <p> tags.
+* [x] Push your solution to GitHub.
 
 ## Expected Outcomes
 
@@ -22,6 +22,7 @@ This my solution for the project Building with backgrounds and gradients. That i
 
 ## Livepreview
 
+Live preview on Github pages --> [Preview here](https://vicc30.github.io/apple-homepage/)
 
 ## Mentions
 
