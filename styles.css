@@ -14,7 +14,7 @@
 /* jumbotron text */
 .jumbo-text {
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .jumbo-text h3,
@@ -76,4 +76,37 @@
 
 .nav .nav-search:hover {
   cursor: text;
+}
+
+/* Products */
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2px;
+}
+
+.product .sub-product {
+  min-height: 200px;
+  flex-grow: 1;
+}
+
+.one {
+  background: url(./images/1.jpg);
+  background-size: contain;
+}
+
+.two {
+  background: url(./images/2.jpg);
+  background-size: contain;
+}
+
+.three {
+  background: url(./images/3.jpg);
+  background-size: contain;
+}
+
+.four {
+  background: url(./images/4.jpg);
+  background-size: contain;
 }
